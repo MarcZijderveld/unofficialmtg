@@ -69,14 +69,14 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>H:/Git Projects/unofficialmtg/Unofficial MTG/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>H:/Git Projects/unofficialmtg/Unofficial MTG/Assets/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>H:/Git Projects/unofficialmtg/Unofficial MTG/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>H:/Git Projects/unofficialmtg/Unofficial MTG/Assets/Newtonsoft.Json.dll</HintPath>
+ <Reference Include="websocket-sharp">
+ <HintPath>H:/Git Projects/unofficialmtg/Unofficial MTG/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

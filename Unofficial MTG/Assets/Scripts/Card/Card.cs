@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Card : MonoBehaviour
+[System.Serializable]
+public class Card
 {
     public enum CardType
     {
@@ -23,12 +24,27 @@ public class Card : MonoBehaviour
         mythic
     }
 
-    public int multiID { get; set; }
-    public string cardName { get; set; }
-    public string setName { get; set; }
-    public Texture2D texture { get; set; }
-    public CardType cardType = CardType.undefined;
-    public int power { get; set; }
-    public int toughness { get; set; }
-    public Rarity ratity = Rarity.common;
+    public string layout;
+    public string name;
+    public string[] names;
+    public string manaCost;
+    public float cmc;
+    public string[] colors;
+    public string type;
+    public string[] supertypes;
+    public string[] types;
+    public string[] subtypes;
+    public string rarity;
+    public string text;
+    public string flavor;
+    public string artist;
+    public string number;
+    public string power;
+    public string toughness;
+    public int loyalty;
+    public int multiverseid;
+    public string[] variations;
+    public string imageName;
+    public string border;
+    public string watermark;
 }

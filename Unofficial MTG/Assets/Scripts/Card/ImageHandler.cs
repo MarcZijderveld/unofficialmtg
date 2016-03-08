@@ -7,9 +7,9 @@ using System.Collections.Generic;
 
 public class ImageHandler : MonoBehaviour
 {
-   /* public string link = "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=!cardid!&type=card";
+   /* public String link = "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=!cardid!&type=card";
 
-    private static void DownloadRemoteImageFile(string uri, string imageID)
+    private static void DownloadRemoteImageFile(String uri, String imageID)
     {
         HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
         HttpWebResponse response = (HttpWebResponse)request.GetResponse();
